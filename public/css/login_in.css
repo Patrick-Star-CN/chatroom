@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 100%;
+}
+.login_in{
+    background-color: aliceblue;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 250px);
+}
+.login_button{
+    border: none;
+    background-color:rgb(47, 0, 255);
+    color: rgb(255, 255, 255);
+    width: 240px;
+    height: 25px;
+    margin-top: 10px;
+}
+.login_info{
+    padding: 10px;
+    padding-top: 50px;
+}
+.login_username{
+    padding: 5px;
+}
+.login_password{
+    padding: 5px;
+}
+.login_disappear{
+    animation: disappear 3s forwards;
+}
+@keyframes disappear{
+    from {
+        opacity: 1;
+        top: 200px;
+    }
+    to {
+        opacity: 0;
+        top: -300px;
+    }
+}

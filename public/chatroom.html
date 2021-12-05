@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>聊天室</title>
+        <link href="./css/login_in.css" rel="stylesheet">
+        <link href="./css/chatroom.css" rel="stylesheet">
+        <script src="https://cdn.bootcdn.net/ajax/libs/socket.io/4.1.3/socket.io.min.js"></script>
+    </head>
+
+    <body>
+        <div class="login_in">
+            <h1 class="login_info">账号登录</h1>
+            <div class="login_username">账 号 ：<input class="log_username" placeholder="请输入账号"/></div>
+            <div class="login_password">密 码 ：<input class="log_password" type="password" placeholder="请输入密码"/></div>
+            <button class="login_button">登录</button>
+        </div>
+        <div class="chatroom">
+            <div class="onlinelist">
+                <h2 class="my_profile"></h2>
+                <div class="friendlist">
+                </div>
+            </div>
+            <div class="chat_content">
+                <h2 class="friend_name">牛牛马马聊天室</h2>
+                <div class="text_section">
+                    <div class="friend_content">
+                    </div>
+                </div>
+                <div class="scanpart">
+                    <textarea class="input_box" autocomplete="off"></textarea>
+                    <button class="input_button">发送</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js/chatroom.js"></script>
+    </body>
+
+    <footer>
+    </footer>
+</html>

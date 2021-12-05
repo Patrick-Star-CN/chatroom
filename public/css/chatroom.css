@@ -1,0 +1,118 @@
+.chatroom{
+    margin-top: 30px;
+    min-width: 1400px;
+    display: none;
+    justify-content: center;
+    align-content: center;
+}
+.onlinelist{
+    width: 400px;
+    min-width: 400px;
+    height: 900px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.friendlist{
+    display: flex;
+    flex-direction: column;
+}
+.my_profile{
+    color: #FFFFFF;
+    position: relative;
+    padding: 10px 0 10px 0px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.chat_content{
+    width: 1000px;
+    min-width: 1000px;
+    height: 900px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.friend_name{
+    border-bottom: 2px solid black;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 50px;
+    width: 900px;
+}
+.friend_content{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 16px;
+}
+.friend_avatar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+    width: 70px;
+    height: 47px;
+    margin: 50px 20px 30px 50px;
+}
+.friend_text{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 13%;
+    margin: 60px 0 60px 0;
+    padding: 15px 10px 15px 10px;
+}
+.my_content{
+    display: flex;
+    justify-content: end;
+}
+.my_avatar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+    width: 70px;
+    height: 47px;
+    margin: 50px 50px 30px 20px;
+}
+.my_text{
+    background-color: rgb(27, 175, 27); 
+    color: black;
+    margin: 60px 0 60px 0;
+    border-radius: 13%;
+    padding: 15px 10px 15px 10px;
+}
+.friend_profile{
+    color: #FFFFFF;
+    position: relative;
+    width: 300px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    margin-left: 50px;
+    border-bottom: 2px solid white;
+}
+.text_section{
+    overflow-y: auto;
+    min-height: 738px;
+}
+.scanpart{
+    display: flex; 
+    align-items: flex-end;
+    margin-top: -1px;
+}
+.input_box{
+    width: 850px;
+    height: 100px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    resize: none;
+    font-size: 30px;
+}
+.input_button{
+    width: 130px;
+    height: 100px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5%;
+}
